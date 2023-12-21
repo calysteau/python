@@ -1,4 +1,4 @@
-# Scripts Python pour SIG et Traitement d'Image par CALYSTEAU
+# Scripts Python pour SIG et Traitement d'Image
 
 ## À propos
 Ce répertoire contient une collection de scripts Python développés par CALYSTEAU, spécialisés dans le domaine des Systèmes d'Information Géographique (SIG) et du traitement d'image. Nos scripts sont conçus pour aider les professionnels et les passionnés du SIG à effectuer des analyses spatiales, le traitement d'images, et plus encore, avec efficacité et précision.
