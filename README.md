@@ -13,7 +13,7 @@ Ce répertoire contient une collection de scripts Python développés par CALYST
 ## Comment commencer
 1. Clonez ce répertoire :
 ```
-git clone [URL_DU_REPOSITORY]
+git clone https://github.com/calysteau/python
 ```
 2. Installez les dépendances nécessaires :
 ```
