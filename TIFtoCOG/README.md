@@ -1,47 +1,47 @@
 # Convertisseur TIF vers COG en Python
 
-## À propos
-TIFtoCOG est un outil en ligne de commande pour convertir efficacement des fichiers GeoTIFF en Cloud Optimized GeoTIFF (COG). Cet outil vise à faciliter le processus de conversion pour permettre une meilleure intégration et accessibilité des données géospatiales dans divers environnements de cloud computing.
+## Ã€ propos
+TIFtoCOG est un outil en ligne de commande pour convertir efficacement des fichiers GeoTIFF en Cloud Optimized GeoTIFF (COG). Cet outil vise Ã  faciliter le processus de conversion pour permettre une meilleure intÃ©gration et accessibilitÃ© des donnÃ©es gÃ©ospatiales dans divers environnements de cloud computing.
 
-## Fonctionnalités
+## FonctionnalitÃ©s
 - Conversion de fichiers GeoTIFF en COG.
 - Prise en charge de la compression LZW.
-- Gestion optimisée des grandes collections de données géospatiales.
-- Conservation des métadonnées et de la qualité des données d'origine.
+- Gestion optimisÃ©e des grandes collections de donnÃ©es gÃ©ospatiales.
+- Conservation des mÃ©tadonnÃ©es et de la qualitÃ© des donnÃ©es d'origine.
 
-## Prérequis
-- Python 3.6 ou supérieur.
-- Bibliothèque Rasterio. Vous pouvez l'installer via pip :
+## PrÃ©requis
+- Python 3.6 ou supÃ©rieur.
+- BibliothÃ¨que Rasterio. Vous pouvez l'installer via pip :
 ```
 pip install rasterio
 ```
 
 ## Installation
-Clonez le dépôt GitHub ou téléchargez le code source :
+Clonez le dÃ©pÃ´t GitHub ou tÃ©lÃ©chargez le code source :
 ``` 
 git clone https://github.com/calysteau/python
 ```
 
 ## Utilisation
 Configurer l'environnement :
-Assurez-vous que Python et Rasterio sont installés sur votre système.
+Assurez-vous que Python et Rasterio sont installÃ©s sur votre systÃ¨me.
 
-Exécution du script :
-Utilisez la ligne de commande pour exécuter le script :
+ExÃ©cution du script :
+Utilisez la ligne de commande pour exÃ©cuter le script :
 
 ```
-python tiftocog.py --repertoire_geotiff chemin_vers_geotiff --repertoire_cog chemin_vers_cog
+python tiftocog.py --input_geotiff_dir chemin_vers_geotiff --output_cog_dir chemin_vers_cog
 ```
 
-- chemin_vers_geotiff : Répertoire contenant vos fichiers GeoTIFF.
-- chemin_vers_cog : Répertoire de sortie pour les fichiers COG.
+- chemin_vers_geotiff : RÃ©pertoire contenant vos fichiers GeoTIFF.
+- chemin_vers_cog : RÃ©pertoire de sortie pour les fichiers COG.
 
-## Vérification des résultats :
-Vérifiez le répertoire de sortie pour vous assurer que les fichiers COG ont été créés correctement.
+## VÃ©rification des rÃ©sultats :
+VÃ©rifiez le rÃ©pertoire de sortie pour vous assurer que les fichiers COG ont Ã©tÃ© crÃ©Ã©s correctement.
 
 ## Exemple
 ```
-python tiftocog.py --repertoire_geotiff ./data/geotiff --repertoire_cog ./data/cog
+python tiftocog.py --input_geotiff_dir ./data/geotiff --output_cog_dir ./data/cog
 ```
 
 ## Contribution
@@ -51,4 +51,4 @@ Les contributions au projet sont les bienvenues. Veuillez consulter les lignes d
 Ce projet est sous licence MIT. Pour plus d'informations, veuillez consulter le fichier `LICENSE` inclus.
 
 ## Contact
-Pour toute question ou collaboration, veuillez contacter CALYSTEAU à contact@calysteau.fr
+Pour toute question ou collaboration, veuillez contacter CALYSTEAU Ã  contact@calysteau.fr
