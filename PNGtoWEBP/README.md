@@ -31,7 +31,7 @@ pip install tqdm
 
 4. Exécutez le script en utilisant Python en spécifiant les répertoires d'entrée et de sortie comme arguments. Par exemple :
 ```
-python PNGtoWEBP.py --repertoire_png "chemin/vers/vos/images/png" --repertoire_webp "chemin/vers/votre/dossier/de/sortie"
+python PNGtoWEBP.py --input_png_dir "chemin/vers/vos/images/png" --output_webp_dir "chemin/vers/votre/dossier/de/sortie"
 ```
 
 Assurez-vous de personnaliser les chemins d'accès aux répertoires en fonction de vos besoins.
